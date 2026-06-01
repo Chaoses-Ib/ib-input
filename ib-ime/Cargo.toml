@@ -22,7 +22,7 @@ windows-sys = { version = "0.61", features = [
 ] }
 
 [dev-dependencies]
-winio = { version = "0.10", default-features = false, features = ["win32"] }
+winio = { version = ">=0.10,<0.12", default-features = false, features = ["win32"] }
 
 [package.metadata.docs.rs]
 targets = ["x86_64-pc-windows-msvc"]
